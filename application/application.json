@@ -1,0 +1,45 @@
+{
+	"name":"BlogNetworking",
+	"version":"2.5",
+	"status":"release",
+	"slug":"blognetworking",
+	"new_settings":true,
+	"classes":
+	{
+		"_load":
+		[
+			"wv48fv_opml"
+		]
+	},
+	"wordpress":{
+		"wpslug":"blognetworking",
+		"stable_tag":"2.5.46",
+		"uri":"http://blognetworking.dcoda.co.uk/",
+		"donate_link":"http://blognetworking.dcoda.co.uk/donate/",
+		"short_desc":"Display the latest posts from a network of blogs.",
+		"tags":
+		[
+			"community",
+			"networking",
+			"network",
+			"feed",
+			"RSS",
+			"OPML",
+			"posts",
+			"latest",
+			"recent"
+		]
+	},
+	"help_meta":
+	{
+		"gettingstarted":
+		{
+			"url":"http://blognetworking.dcoda.co.uk/help/"
+		},
+		"settings":
+		{
+			"url":"http://blognetworking.dcoda.co.uk/help/settings"
+		}
+	}
+
+}

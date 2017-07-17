@@ -1,0 +1,20 @@
+<li id="community-posts" class="widget-container">
+<h3 class="widget-title"><?php
+echo $this->title;
+?></h3>
+<ul><?php
+foreach ( ( array ) $this->data  as $post ) :
+	?>
+		<li><a href='<?php
+	echo $post ['link'];
+	?>'
+		title='<?php
+	echo $post ['author'] . ' @ ' . $post ['blog'] ['title'];
+	?>'><?php
+	echo $post ['title'];
+	?></a>
+	</li><?php
+endforeach;
+?>
+	</ul>
+</li>

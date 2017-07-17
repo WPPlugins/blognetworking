@@ -1,0 +1,9 @@
+{
+	"network":{
+		"url": "http://wordpress.com/wp-links-opml.php",
+		"schedule":"twicedaily",
+		"site_max": 5,
+		"net_max": 10,
+		"posts":[]
+	}				
+}

@@ -1,0 +1,9 @@
+<th>Schedule</th>
+<td>
+	<select name="network[schedule]">
+		<?php foreach($this->data()->schedules as $key=>$value):?>
+			<option value="<?php echo $key;?>"
+					<?php selected($key,$this->network['schedule']);?>
+			><?php echo $value;?></option>
+		<?php endforeach;?>
+</td>
